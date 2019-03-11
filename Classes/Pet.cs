@@ -4,7 +4,7 @@ namespace Oop.Classes
 {
   public class Pet
   {
-    public string Name { get; set; }     // Properties
+    public string Name { get; set; }     // Attributes
     public string Breed { get; set; }
     public DateTime Birthday { get; set; } = DateTime.Now;
     public int Age { get; set; } = 0;

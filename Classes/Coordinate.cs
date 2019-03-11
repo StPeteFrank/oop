@@ -10,7 +10,7 @@ namespace Oop.Classes
 
     public override string ToString()
     {
-      return $"{Label} is located at {Latitude}, {Longitude}.";
+      return $"{Label} located at {Latitude}, {Longitude}.";
     }
   }
 }

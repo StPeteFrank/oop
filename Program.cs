@@ -25,7 +25,7 @@ namespace oop
       var dog = new Pet("Spot", "Shepard");
       dog.Adopt("Janie");
 
-      Console.WriteLine($"{dog.OwnerName} has adopted {dog.Name} which is a {dog.Breed}");
+      Console.WriteLine($"{dog.OwnerName} has adopted {dog.Name} which is a {dog.Breed}. They are currently located at {point.Label}");
     }
   }
 }
