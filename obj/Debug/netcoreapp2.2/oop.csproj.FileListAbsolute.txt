@@ -1,0 +1,11 @@
+/Users/frankdiaz/sdg/unit-iii/oop/bin/Debug/netcoreapp2.2/oop.deps.json
+/Users/frankdiaz/sdg/unit-iii/oop/bin/Debug/netcoreapp2.2/oop.runtimeconfig.json
+/Users/frankdiaz/sdg/unit-iii/oop/bin/Debug/netcoreapp2.2/oop.runtimeconfig.dev.json
+/Users/frankdiaz/sdg/unit-iii/oop/bin/Debug/netcoreapp2.2/oop.dll
+/Users/frankdiaz/sdg/unit-iii/oop/bin/Debug/netcoreapp2.2/oop.pdb
+/Users/frankdiaz/sdg/unit-iii/oop/obj/Debug/netcoreapp2.2/oop.csprojAssemblyReference.cache
+/Users/frankdiaz/sdg/unit-iii/oop/obj/Debug/netcoreapp2.2/oop.csproj.CoreCompileInputs.cache
+/Users/frankdiaz/sdg/unit-iii/oop/obj/Debug/netcoreapp2.2/oop.AssemblyInfoInputs.cache
+/Users/frankdiaz/sdg/unit-iii/oop/obj/Debug/netcoreapp2.2/oop.AssemblyInfo.cs
+/Users/frankdiaz/sdg/unit-iii/oop/obj/Debug/netcoreapp2.2/oop.dll
+/Users/frankdiaz/sdg/unit-iii/oop/obj/Debug/netcoreapp2.2/oop.pdb
