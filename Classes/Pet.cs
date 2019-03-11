@@ -22,7 +22,7 @@ namespace Oop.Classes
       Breed = breed;
 
     }
-    public Boolean Adopt(string Owner)
+    public Boolean Adopt(string Owner)       /// Method
     {
       IsAdopted = true;
       OwnerName = Owner;
