@@ -1,21 +1,10 @@
 ﻿using System;
+using Oop.Classes;
 
 namespace oop
 {
   class Program
   {
-    public class Coordinate
-    {
-      public decimal Latitude { get; set; }
-      public decimal Longitude { get; set; }
-      public string Label { get; set; }
-
-      public override string ToString()
-      {
-        return $"{Label} is located at {Latitude}, {Longitude}.";
-      }
-    }
-
     static void Main(string[] args)
     {
       var point = new Coordinate();
