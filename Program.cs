@@ -4,17 +4,6 @@ namespace oop
 {
   class Program
   {
-
-    // Model real world data inside our code
-
-    // Store points
-    /*
-    Point has:
-        latitude
-        longitude
-        label
-     */
-
     public class Coordinate
     {
       public decimal Latitude { get; set; }
@@ -24,7 +13,11 @@ namespace oop
 
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      var point = new Coordinate();
+
+      point.Latitude = (decimal)-82.12345;
+      point.Latitude = (decimal)-27.98765;
+      point.Label = "Somewhere over the rainbow.";
     }
   }
 }
