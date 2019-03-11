@@ -9,10 +9,11 @@ namespace Oop.Classes
     public int NumberOfItems { get; set; } = 0;
     public int MaxNumberOfItems { get; set; }
 
-    public BackPack(string color, string owner, int maxItems)
+    public BackPack(string color, string owner, int numberOfItems, int maxItems)
     {
       Color = color;
       Owner = owner;
+      NumberOfItems = numberOfItems;
       MaxNumberOfItems = maxItems;
     }
 
@@ -31,15 +32,16 @@ namespace Oop.Classes
     }
     public int RemoveItem()
     {
-      if (NumberOfItems > MaxNumberOfItems)
+      if (NumberOfItems > 0)
       {
         NumberOfItems--;
-        return NumberOfItems;
       }
-      else
-      {
-        return NumberOfItems;
-      }
+      return NumberOfItems;
     }
+    public override string ToString()
+    {
+      return $"{Owner}, {Color}, {NumberOfItems}/{MaxNumberOfItems}";
+    }
+
   }
 }

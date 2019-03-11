@@ -26,6 +26,14 @@ namespace oop
       dog.Adopt("Janie");
 
       Console.WriteLine($"{dog.OwnerName} has adopted {dog.Name} which is a {dog.Breed}. They are currently located at {point.Label}");
+
+      var myPack = new BackPack("Red", "Frank", 4, 6);
+      var campingPack = new BackPack("Blue", "Tony", 8, 12);
+
+      Console.WriteLine($"{myPack.Owner} has a {myPack.Color} back pack and it holds {myPack.MaxNumberOfItems} items");
+      Console.WriteLine(campingPack);
+
+
     }
   }
 }
