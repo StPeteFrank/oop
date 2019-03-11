@@ -28,7 +28,15 @@ namespace oop
       Console.WriteLine($"{dog.OwnerName} has adopted {dog.Name} which is a {dog.Breed}. They are currently located at {point.Label}");
 
       var myPack = new BackPack("Red", "Frank", 4, 6);
-      var campingPack = new BackPack("Blue", "Tony", 8, 12);
+      for (var i = 0; i < 3; i++)
+      {
+        myPack.AddItem();
+      }
+      var campingPack = new BackPack("Blue", "Tony", 8, 32);
+      for (var i = 0; i < 13; i++)
+      {
+        campingPack.AddItem();
+      }
 
       Console.WriteLine($"{myPack.Owner} has a {myPack.Color} back pack and it holds {myPack.MaxNumberOfItems} items");
       Console.WriteLine(campingPack);
