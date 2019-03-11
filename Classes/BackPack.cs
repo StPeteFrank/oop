@@ -15,5 +15,31 @@ namespace Oop.Classes
       Owner = owner;
       MaxNumberOfItems = maxItems;
     }
+
+    public int AddItem()
+    {
+      if (NumberOfItems < MaxNumberOfItems)
+      {
+        NumberOfItems++;
+        return NumberOfItems;
+      }
+      else
+      {
+        // throw new Exception("Backpack overflow.");
+        return NumberOfItems;
+      }
+    }
+    public int RemoveItem()
+    {
+      if (NumberOfItems > MaxNumberOfItems)
+      {
+        NumberOfItems--;
+        return NumberOfItems;
+      }
+      else
+      {
+        return NumberOfItems;
+      }
+    }
   }
 }
