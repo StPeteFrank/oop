@@ -1,3 +1,5 @@
+using System;
+
 namespace Oop.Classes
 {
   public class Coordinate

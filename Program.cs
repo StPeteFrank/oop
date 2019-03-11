@@ -15,6 +15,14 @@ namespace oop
 
       Console.WriteLine(point);
 
+      var cat = new Pet("Fluffy", "Russian Blue");
+
+      cat.Name = "Fluffer";
+      cat.Breed = "Tabby";
+      cat.OwnerName = "John";
+
+      cat.Adopt("Mike");
+      Console.WriteLine(cat);
     }
   }
 }
